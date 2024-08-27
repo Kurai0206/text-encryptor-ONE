@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel= "stylesheet" href="styles.css" />
+    <title> Encriptador de Texto </title>
+  </head>
+
+  <body>
+    <div class = "container">
+        <div>
+            <h1> Bienvenido al encriptador de texto </h1>
+        </div>
+
+        <div class= "encriptado">
+            <textarea
+            name = "texto"
+            class = "texto"
+            id = "texto"
+            cols = "30"
+            rows = "10"
+            placeholder = "Ingresa el texto a encriptar aquí"></textarea>
+
+            <textarea
+            name = "texto2"
+            class = "texto2"
+            id = "texto2"
+            cols = "30"
+            rows = "10"
+            placeholder = "Texto encriptado" readonly></textarea>
+        </div>
+
+        <div class= "terminos">
+          <p > Sólo letras minúsculas y sin acentos </p>
+        </div>
+
+        <div class = "botones"> 
+            <button class= "btn-encriptar" type= "button" onclick= "btnEncriptar()">Encriptar</button>
+           
+            <button class= "btn-desencriptar" type= "button" onclick= "btnDesencriptar()"> Desencriptar </button> 
+
+            <button class="btn-copy" id = "btn-copy" type="button" onclick="btnCopiar()"> Copiar encriptado </button>
+        </div>
+
+        <div class="gif-cinnamoroll">
+          <img src="cinnamoroll.gif" id= "cinnamoroll">
+        </div>
+        <div>
+          <img src="flor.png" id= "flor">
+          <img src="flor.png" id= "flor2">
+          <img src="flor.png" id= "flor3">
+        </div>
+
+        
+      </div>
+      <footer>
+        <div class= "footer">
+          <p> Creado por: Monserrath Gutiérrez González </p>
+        </div>
+      </footer>
+
+    <script src= "index.js"></script>
+  </body>
+</html>
+
